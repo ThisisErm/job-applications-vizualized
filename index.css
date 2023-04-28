@@ -16,34 +16,31 @@ body {
 
 .div2 {
     grid-area: 1 / 7 / 13 / 13;
+    display: flex; /* Added */
 }
 
+.data {
+    height: 91.7%; /* Changed */
+    width: 100%; /* Changed */
+}
 
 .div3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0px;
     height: 344px;
-    width: 00px;
+    width: 600px;
 }
-
-
 
 .sent {
     height: 344px;
     width: 600px;
 }
 
-.data {
-    height: 777.5px !important;
-    width: 809px !important;
-}
-
-
 body {
-    background-color: black;
+    background-color: #111217;
 }
 
-/* iframe {
+iframe {
     border: #111217;
-} */
+}
