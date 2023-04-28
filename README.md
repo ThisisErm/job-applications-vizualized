@@ -2,6 +2,6 @@
 
 ## Experimenting with data vizualization with Grafana.
 
-### The dashboard was built on a self-hosted Grafana Docker container, and exported as snapshots. I then imported the snapshots as iframe elements into an html document and deployed via netlify.
+### The dashboard was built on a self-hosted Grafana Docker container. I used a Google sheet spreadsheet as the database and exported to Grafana using the Google sheets API. I then exported each dashboard as a snapshot from Grafana and imported them as iframe elements into an html document, then deployed via netlify.
 
 ### Here is the live dashboard: https://grafana-job-applications.netlify.app/
